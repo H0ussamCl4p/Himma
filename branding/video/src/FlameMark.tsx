@@ -1,5 +1,4 @@
 import React from "react";
-import { FLAME_FACE_INK } from "./brand";
 
 type Props = {
   size?: number;
@@ -8,37 +7,46 @@ type Props = {
   style?: React.CSSProperties;
 };
 
-/** The Himma flame mark — same geometry as the production mascot. */
+/** The Forge mark — a glowing molten ember, same geometry as the production mascot. */
 export const FlameMark: React.FC<Props> = ({ size = 200, face = true, idPrefix, style }) => {
   const h = (size * 120) / 96;
   return (
     <svg width={size} height={h} viewBox="0 0 96 120" style={style}>
       <defs>
-        <linearGradient id={`${idPrefix}-body`} x1="48" y1="14" x2="48" y2="110" gradientUnits="userSpaceOnUse">
-          <stop offset="0" stopColor="#FF9A5C" />
-          <stop offset="0.5" stopColor="#FF6A2C" />
-          <stop offset="1" stopColor="#E2521A" />
+        <linearGradient id={`${idPrefix}-body`} x1="48" y1="34" x2="48" y2="105" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stopColor="#FF8A4C" />
+          <stop offset="0.55" stopColor="#E85620" />
+          <stop offset="1" stopColor="#B83C12" />
         </linearGradient>
-        <linearGradient id={`${idPrefix}-core`} x1="48" y1="56" x2="48" y2="101" gradientUnits="userSpaceOnUse">
-          <stop offset="0" stopColor="#FFE7A8" />
+        <radialGradient id={`${idPrefix}-core`} cx="48" cy="71" r="26" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stopColor="#FFF3D0" />
+          <stop offset="0.6" stopColor="#FFC95E" />
           <stop offset="1" stopColor="#FFB23E" />
-        </linearGradient>
+        </radialGradient>
+        <radialGradient id={`${idPrefix}-halo`} cx="48" cy="74" r="46" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stopColor="#FF6A2C" stopOpacity="0.32" />
+          <stop offset="1" stopColor="#FF6A2C" stopOpacity="0" />
+        </radialGradient>
       </defs>
+      <ellipse cx="48" cy="74" rx="46" ry="42" fill={`url(#${idPrefix}-halo)`} />
+      <path d="M50 12l1.9 4.4 4.4 1.9-4.4 1.9-1.9 4.4-1.9-4.4-4.4-1.9 4.4-1.9Z" fill="#FF8A4C" />
+      <circle cx="69" cy="22" r="2.4" fill="#FFB23E" />
+      <circle cx="29" cy="27" r="1.8" fill="#FF8A4C" />
       <path
-        d="M48 14C58 33 81 45 81 76C81 98.5 66.5 111 48 111C29.5 111 15 98.5 15 76C15 47 36.5 38.5 48 14Z"
+        d="M30 40C38 34 58 34 66 40C78 48 85 58 85 72C85 92 68 105 48 105C28 105 11 92 11 72C11 58 18 48 30 40Z"
         fill={`url(#${idPrefix}-body)`}
       />
       <path
-        d="M48 56C56 67 64 73.5 64 84C64 95.5 57.5 102 48 102C38.5 102 32 95.5 32 84C32 73.5 40 67 48 56Z"
+        d="M48 52C61 52 71 62 71 74C71 89 61 97 48 97C35 97 25 89 25 74C25 62 35 52 48 52Z"
         fill={`url(#${idPrefix}-core)`}
       />
       {face && (
         <>
-          <circle cx="40" cy="73" r="4.4" fill={FLAME_FACE_INK} />
-          <circle cx="56" cy="73" r="4.4" fill={FLAME_FACE_INK} />
-          <circle cx="41.6" cy="71.4" r="1.4" fill="#fff" />
-          <circle cx="57.6" cy="71.4" r="1.4" fill="#fff" />
-          <path d="M41 83Q48 90 55 83" fill="none" stroke={FLAME_FACE_INK} strokeWidth="3" strokeLinecap="round" />
+          <circle cx="40" cy="74" r="4.3" fill="#1a0f08" />
+          <circle cx="56" cy="74" r="4.3" fill="#1a0f08" />
+          <circle cx="41.5" cy="72.2" r="1.5" fill="#fff" />
+          <circle cx="57.5" cy="72.2" r="1.5" fill="#fff" />
+          <path d="M40.5 83Q48 90 55.5 83" fill="none" stroke="#1a0f08" strokeWidth="2.8" strokeLinecap="round" />
         </>
       )}
     </svg>

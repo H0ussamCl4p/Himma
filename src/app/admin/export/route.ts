@@ -42,7 +42,7 @@ export async function GET() {
     status: 200,
     headers: {
       "Content-Type": "text/csv; charset=utf-8",
-      "Content-Disposition": `attachment; filename="himma-waitlist-${date}.csv"`,
+      "Content-Disposition": `attachment; filename="forge-waitlist-${date}.csv"`,
       "Cache-Control": "no-store",
     },
   });

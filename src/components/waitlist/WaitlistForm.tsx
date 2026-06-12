@@ -46,7 +46,7 @@ export function WaitlistForm() {
       <div className="done" role="status" aria-live="polite">
         <SparkleMascot id="mk-done" />
         <h3>You&apos;re on the list!</h3>
-        <p>We&apos;ll let you know the moment Himma opens at your school. Dir himma 🔥</p>
+        <p>We&apos;ll let you know the moment Forge opens at your school. Forge ahead 🔥</p>
       </div>
     );
   }

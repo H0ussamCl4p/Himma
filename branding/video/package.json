@@ -1,11 +1,11 @@
 {
-  "name": "himma-brand-video",
+  "name": "forge-brand-video",
   "version": "1.0.0",
   "private": true,
-  "description": "Himma brand motion-design video (16:9) rendered with Remotion",
+  "description": "Forge brand motion-design video (16:9) rendered with Remotion",
   "scripts": {
     "studio": "remotion studio",
-    "render": "remotion render HimmaBrand out/himma-brand.mp4"
+    "render": "remotion render ForgeBrand out/forge-brand.mp4"
   },
   "dependencies": {
     "@remotion/cli": "4.0.246",

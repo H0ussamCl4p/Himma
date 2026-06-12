@@ -47,17 +47,17 @@ const FEATURES: Feature[] = [
   },
 ];
 
-export function WhyHimma() {
+export function WhyForge() {
   return (
     <section className="why">
       <div className="why-head">
         <div className="eyebrow rv">
           <b />
-          Why Himma
+          Why Forge
         </div>
         <h2 className="rv d2">Studying alone is the hard way.</h2>
         <p className="why-sub rv d2">
-          Himma turns your study hours into a game you play with your friends — so showing
+          Forge turns your study hours into a game you play with your friends — so showing
           up stops being a fight with yourself.
         </p>
       </div>

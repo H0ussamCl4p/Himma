@@ -1,4 +1,4 @@
-/** Himma brand constants for the video — mirrors branding/tokens.css */
+/** Forge brand constants for the video — mirrors branding/tokens.css */
 export const C = {
   bg: "#FCFBF9",
   surface: "#FFFFFF",

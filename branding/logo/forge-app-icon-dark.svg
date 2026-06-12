@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-label="Forge app icon (dark)">
+  <title>Forge app icon (dark)</title>
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#16161F"/>
+      <stop offset="1" stop-color="#0A0A0E"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FF8A4C"/>
+      <stop offset="0.55" stop-color="#E85620"/>
+      <stop offset="1" stop-color="#B83C12"/>
+    </linearGradient>
+    <radialGradient id="core" cx="0.5" cy="0.42" r="0.62">
+      <stop offset="0" stop-color="#FFF3D0"/>
+      <stop offset="0.6" stop-color="#FFC95E"/>
+      <stop offset="1" stop-color="#FFB23E"/>
+    </radialGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FF6A2C" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#FF6A2C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="224" fill="url(#tile)"/>
+  <g transform="translate(262,150) scale(5.2)">
+    <ellipse cx="48" cy="74" rx="58" ry="54" fill="url(#halo)"/>
+    <path d="M50 12l1.9 4.4 4.4 1.9-4.4 1.9-1.9 4.4-1.9-4.4-4.4-1.9 4.4-1.9Z" fill="#FF8A4C"/>
+    <circle cx="69" cy="22" r="2.4" fill="#FFB23E"/>
+    <circle cx="29" cy="27" r="1.8" fill="#FF8A4C"/>
+    <path d="M30 40C38 34 58 34 66 40C78 48 85 58 85 72C85 92 68 105 48 105C28 105 11 92 11 72C11 58 18 48 30 40Z" fill="url(#body)"/>
+    <path d="M48 52C61 52 71 62 71 74C71 89 61 97 48 97C35 97 25 89 25 74C25 62 35 52 48 52Z" fill="url(#core)"/>
+    <circle cx="40" cy="74" r="4.2" fill="#1a0f08"/>
+    <circle cx="56" cy="74" r="4.2" fill="#1a0f08"/>
+    <circle cx="41.5" cy="72.4" r="1.4" fill="#FFFFFF"/>
+    <circle cx="57.5" cy="72.4" r="1.4" fill="#FFFFFF"/>
+    <path d="M41 83Q48 89 55 83" fill="none" stroke="#1a0f08" stroke-width="2.6" stroke-linecap="round"/>
+  </g>
+</svg>

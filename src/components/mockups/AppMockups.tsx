@@ -102,7 +102,7 @@ const avMini = (bg: string): CSSProperties => ({
 /* Screen 1 — home / ready to focus. ------------------------------------- */
 function HomeScreen() {
   return (
-    <Frame label="Himma home screen">
+    <Frame label="Forge home screen">
       <StatusBar />
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 14 }}>
         <span style={{ fontSize: 13, color: TEXT }}>Merhba, ssi Rayane</span>
@@ -164,7 +164,7 @@ function HomeScreen() {
 /* Screen 2 — active focus session. -------------------------------------- */
 function FocusScreen() {
   return (
-    <Frame label="Himma focus session screen">
+    <Frame label="Forge focus session screen">
       <StatusBar />
       <div style={{ textAlign: "center", fontSize: 12, color: MUTED, marginBottom: 14, display: "flex", alignItems: "center", justifyContent: "center", gap: 5 }}>
         <BookIcon size={13} /> Networks
@@ -204,7 +204,7 @@ function LeaderboardScreen() {
     { rk: "7", initial: "H", color: EMBER, name: "You", hours: "9h 05", me: true },
   ];
   return (
-    <Frame label="Himma leaderboard screen">
+    <Frame label="Forge leaderboard screen">
       <StatusBar />
       <div style={{ fontFamily: "var(--display)", fontSize: 16, fontWeight: 600, color: TEXT }}>Leaderboard</div>
       <div style={{ fontSize: 11, color: FAINT, marginBottom: 11 }}>CSCC 3A · this week</div>

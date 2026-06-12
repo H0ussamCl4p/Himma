@@ -1,8 +1,8 @@
-# Himma — Waitlist
+# Forge — Waitlist
 
-Waitlist landing page for **Himma**, a study-focus app with campus leaderboards for
-Moroccan students. Built with **Next.js (App Router)**, **TypeScript**, **Tailwind CSS**,
-and **Supabase**. Deploys on **Vercel**.
+Waitlist landing page for **Forge**, a study-focus app with campus leaderboards for
+students. Built with **Next.js (App Router)**, **TypeScript**, **Tailwind CSS**,
+and **Supabase**. Deploys on **Vercel**. Live: https://forge-get.com
 
 ## Brand kit
 

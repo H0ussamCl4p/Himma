@@ -1,4 +1,4 @@
--- Himma waitlist table.
+-- Forge waitlist table.
 -- Writes happen server-side with the service-role key, which bypasses RLS,
 -- so we enable RLS but intentionally add NO public/anon policies.
 

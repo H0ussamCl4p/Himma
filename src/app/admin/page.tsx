@@ -5,7 +5,7 @@ import { logout } from "./actions";
 import { LoginForm } from "./LoginForm";
 
 export const metadata: Metadata = {
-  title: "Admin — Himma",
+  title: "Admin — Forge",
   robots: { index: false, follow: false },
 };
 

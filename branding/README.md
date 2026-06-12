@@ -1,19 +1,20 @@
-# Himma — Brand Kit
+# Forge — Brand Kit
 
-Premium light + neon-orange identity for **Himma**, the study-focus & campus-leaderboard
-app for Moroccan students. همة = drive, ambition, fire.
+Premium light + neon-orange identity for **Forge**, the study-focus & campus-leaderboard
+app. Forge your focus, forge your streak, forge ahead. 🔥
 
 > Source of truth for the live site styles: [`src/app/globals.css`](../src/app/globals.css).
-> Figma file: [Himma — Brand & Product Design](https://www.figma.com/design/t2gVSsJ1sNiXeLqra7NTFQ)
+> Figma file: [Forge — Brand & Product Design](https://www.figma.com/design/t2gVSsJ1sNiXeLqra7NTFQ)
+> (Formerly "Himma" — renamed June 2026 for a globally pronounceable brand.)
 
 ## Folder contents
 
 | Path | What |
 | --- | --- |
-| `logo/himma-mascot.svg` | Flame mascot **with face** — hero moments, empty states, success screens |
-| `logo/himma-mark.svg` | Clean flame **without face** — avatars, watermarks, favicons, small sizes |
-| `logo/himma-app-icon.svg` | App icon, light tile (current production icon) |
-| `logo/himma-app-icon-dark.svg` | App icon, dark tile (dark contexts, alt stores) |
+| `logo/forge-mascot.svg` | Ember mascot **with face** — hero moments, empty states, success screens |
+| `logo/forge-mark.svg` | Clean ember **without face** — avatars, watermarks, favicons, small sizes |
+| `logo/forge-app-icon.svg` | App icon, light tile (current production icon) |
+| `logo/forge-app-icon-dark.svg` | App icon, dark tile (dark contexts, alt stores) |
 | `tokens.css` | Copy-paste CSS design tokens |
 | `video/` | Remotion motion-design brand video project (16:9 MP4 for social) |
 
@@ -43,16 +44,18 @@ app for Moroccan students. همة = drive, ambition, fire.
 
 - **Display / headings:** Space Grotesk (600–700), tight letter-spacing (−1 to −2.5px on large sizes)
 - **Body / UI:** Inter (400–600)
-- Wordmark: lowercase `himma` in Space Grotesk 600. The period in taglines ("Dir himma.") is intentional.
+- Wordmark: lowercase `forge` in Space Grotesk 600. Brand line "Forge ahead." — the period is intentional.
 
 ## Voice
 
-- Darija-first, confident, warm: "Dir himma.", "Merhba", "Ready to lock in?"
+- Confident, warm, motivating: "Forge ahead.", "Ready to lock in?", "Keep your streak alive."
 - Competitive but friendly — pushes you, never stresses you.
 - Honest: "Real scores only. Zero fake hours, ever."
 
 ## Mascot
 
-The flame mascot is the brand. Gradient body (`#FF9A5C → #FF6A2C → #E2521A`),
-honey core (`#FFE7A8 → #FFB23E`), dark face strokes `#1A0F08`.
-Use the **faceless mark** below 32px — the face stops reading at small sizes.
+The mascot is a **glowing molten ember** — a hot coal struck off the anvil.
+Body gradient (`#FF8A4C → #E85620 → #B83C12`), white-hot radial core
+(`#FFF3D0 → #FFC95E → #FFB23E`), dark face `#1A0F08`, rising sparks + a soft
+ember halo. The nav mark drops the halo/sparks and the faceless `forge-mark.svg`
+is used below ~32px — both keep it crisp at small sizes.

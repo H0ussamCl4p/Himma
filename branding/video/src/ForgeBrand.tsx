@@ -148,7 +148,7 @@ const Tagline: React.FC = () => {
               filter: `blur(${(1 - w1) * 12}px)`,
             }}
           >
-            Dir
+            Forge
           </span>{" "}
           <span
             style={{
@@ -162,7 +162,7 @@ const Tagline: React.FC = () => {
               color: "transparent",
             }}
           >
-            himma.
+            ahead.
           </span>
         </div>
         <div
@@ -568,7 +568,7 @@ const EndCard: React.FC = () => {
             opacity: Math.min(1, word * 1.4),
           }}
         >
-          himma
+          forge
         </div>
         <div
           style={{
@@ -587,7 +587,7 @@ const EndCard: React.FC = () => {
           Join the waitlist
         </div>
         <div style={{ fontFamily: BODY, fontSize: 30, fontWeight: 500, color: C.muted, marginTop: 30, opacity: url }}>
-          dir-himma.vercel.app
+          forge-get.com
         </div>
       </div>
     </AbsoluteFill>
@@ -595,7 +595,7 @@ const EndCard: React.FC = () => {
 };
 
 /* ================= MAIN ================= */
-export const HimmaBrand: React.FC = () => {
+export const ForgeBrand: React.FC = () => {
   return (
     <AbsoluteFill style={{ background: C.bg }}>
       <Sequence from={0} durationInFrames={96}>

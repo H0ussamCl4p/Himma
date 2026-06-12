@@ -20,36 +20,36 @@ const description =
   "The app that turns your study hours into a friendly competition with your class. Join the waitlist.";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://dir-himma.vercel.app"),
-  title: "Himma — Dir himma",
+  metadataBase: new URL("https://forge-get.com"),
+  title: "Forge — Forge ahead",
   description,
-  applicationName: "Himma",
-  keywords: ["Himma", "Moroccan students", "study", "leaderboard", "focus", "university"],
+  applicationName: "Forge",
+  keywords: ["Forge", "study", "leaderboard", "focus", "students", "university", "streaks"],
   icons: {
-    icon: [{ url: "/himma-app-icon.svg", type: "image/svg+xml" }],
-    shortcut: ["/himma-app-icon.svg"],
-    apple: [{ url: "/himma-app-icon.svg" }],
+    icon: [{ url: "/forge-app-icon.svg", type: "image/svg+xml" }],
+    shortcut: ["/forge-app-icon.svg"],
+    apple: [{ url: "/forge-app-icon.svg" }],
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    title: "Himma — Dir himma",
+    title: "Forge — Forge ahead",
     description,
-    siteName: "Himma",
+    siteName: "Forge",
     images: [
       {
-        url: "/himma-app-icon.svg",
+        url: "/forge-app-icon.svg",
         width: 1024,
         height: 1024,
-        alt: "Himma",
+        alt: "Forge",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Himma — Dir himma",
+    title: "Forge — Forge ahead",
     description,
-    images: ["/himma-app-icon.svg"],
+    images: ["/forge-app-icon.svg"],
   },
 };
 

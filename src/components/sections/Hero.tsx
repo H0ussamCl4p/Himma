@@ -14,7 +14,7 @@ export async function Hero() {
           Coming soon · waitlist open
         </div>
         <h1 className="rv d2">
-          Dir <span className="o">himma</span>.
+          Forge <span className="o">ahead</span>.
         </h1>
         <p className="lead rv d3">
           The app that turns your study hours into a friendly competition with

@@ -1,6 +1,6 @@
 /**
  * Small, on-brand inline line icons. Stroke uses currentColor so each icon
- * inherits the color of its surrounding text. Drawn to match Himma's warm,
+ * inherits the color of its surrounding text. Drawn to match Forge's warm,
  * rounded mark — deliberately not emoji and with no icon-font dependency.
  */
 

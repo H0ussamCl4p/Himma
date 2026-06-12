@@ -1,38 +1,38 @@
 /* ============================================================
-   HIMMA — Brand design tokens (light theme, June 2026)
+   FORGE — Brand design tokens (light theme, June 2026)
    Copy-paste into any project. Source of truth: src/app/globals.css
    ============================================================ */
 :root {
   /* Surfaces */
-  --himma-bg: #fcfbf9;          /* warm off-white page background */
-  --himma-surface: #ffffff;     /* cards, phones */
-  --himma-surface-2: #f6f4f0;   /* recessed surfaces, tab rails */
-  --himma-line: #ece7df;        /* borders, hairlines */
+  --forge-bg: #fcfbf9;          /* warm off-white page background */
+  --forge-surface: #ffffff;     /* cards, phones */
+  --forge-surface-2: #f6f4f0;   /* recessed surfaces, tab rails */
+  --forge-line: #ece7df;        /* borders, hairlines */
 
   /* Text */
-  --himma-text: #1a1714;        /* primary — warm near-black */
-  --himma-muted: #6b6760;       /* secondary */
-  --himma-faint: #9a958c;       /* hints, placeholders */
+  --forge-text: #1a1714;        /* primary — warm near-black */
+  --forge-muted: #6b6760;       /* secondary */
+  --forge-faint: #9a958c;       /* hints, placeholders */
 
   /* Brand — ember orange is THE signal. One hero accent, always. */
-  --himma-ember: #ff6a2c;       /* primary brand */
-  --himma-ember-bright: #ff8a4c;/* gradient top */
-  --himma-ember-deep: #e2521a;  /* text-on-light accents, hovers */
-  --himma-honey: #ffb23e;       /* warm secondary (streaks, banners) */
-  --himma-mint: #1fae8f;        /* status/live only — never decorative */
+  --forge-ember: #ff6a2c;       /* primary brand */
+  --forge-ember-bright: #ff8a4c;/* gradient top */
+  --forge-ember-deep: #e2521a;  /* text-on-light accents, hovers */
+  --forge-honey: #ffb23e;       /* warm secondary (streaks, banners) */
+  --forge-mint: #1fae8f;        /* status/live only — never decorative */
 
   /* Gradients */
-  --himma-grad-ember: linear-gradient(180deg, #ff8a4c, #ff6a2c);
-  --himma-grad-flame-body: linear-gradient(180deg, #ff9a5c, #ff6a2c 50%, #e2521a);
-  --himma-grad-flame-core: linear-gradient(180deg, #ffe7a8, #ffb23e);
+  --forge-grad-ember: linear-gradient(180deg, #ff8a4c, #ff6a2c);
+  --forge-grad-flame-body: linear-gradient(180deg, #ff9a5c, #ff6a2c 50%, #e2521a);
+  --forge-grad-flame-core: linear-gradient(180deg, #ffe7a8, #ffb23e);
 
   /* Type — Space Grotesk for display, Inter for body */
-  --himma-font-display: "Space Grotesk", sans-serif;
-  --himma-font-body: "Inter", sans-serif;
+  --forge-font-display: "Space Grotesk", sans-serif;
+  --forge-font-body: "Inter", sans-serif;
 
   /* Elevation — soft layered shadows, never glow, on the light theme */
-  --himma-shadow-sm: 0 1px 2px rgba(26, 23, 20, 0.04), 0 2px 8px -2px rgba(26, 23, 20, 0.06);
-  --himma-shadow-md: 0 8px 24px -10px rgba(26, 23, 20, 0.16);
-  --himma-shadow-lg: 0 30px 60px -28px rgba(26, 23, 20, 0.28);
-  --himma-shadow-cta: 0 10px 26px -10px rgba(255, 106, 44, 0.6);
+  --forge-shadow-sm: 0 1px 2px rgba(26, 23, 20, 0.04), 0 2px 8px -2px rgba(26, 23, 20, 0.06);
+  --forge-shadow-md: 0 8px 24px -10px rgba(26, 23, 20, 0.16);
+  --forge-shadow-lg: 0 30px 60px -28px rgba(26, 23, 20, 0.28);
+  --forge-shadow-cta: 0 10px 26px -10px rgba(255, 106, 44, 0.6);
 }

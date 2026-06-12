@@ -1,7 +1,7 @@
 import "server-only";
 import { cookies } from "next/headers";
 
-export const ADMIN_COOKIE = "himma_admin";
+export const ADMIN_COOKIE = "forge_admin";
 
 /**
  * Returns the configured admin password, or throws if it isn't set.

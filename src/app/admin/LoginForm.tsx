@@ -8,7 +8,7 @@ export function LoginForm() {
 
   return (
     <form action={formAction} className="admin-login card">
-      <h3>Himma Admin</h3>
+      <h3>Forge Admin</h3>
       <p className="sub">Enter the password to view the waitlist.</p>
       <div className="field">
         <label htmlFor="pw">Password</label>
