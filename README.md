@@ -4,6 +4,12 @@ Waitlist landing page for **Himma**, a study-focus app with campus leaderboards 
 Moroccan students. Built with **Next.js (App Router)**, **TypeScript**, **Tailwind CSS**,
 and **Supabase**. Deploys on **Vercel**.
 
+## Brand kit
+
+All branding lives in [`branding/`](branding/README.md): logos (SVG), design tokens,
+brand guidelines, and the [Remotion motion-design video](branding/video/README.md)
+(16:9 MP4 for social — `cd branding/video && npm install && npm run render`).
+
 ## Quick start
 
 ```bash

@@ -20,7 +20,7 @@ const description =
   "The app that turns your study hours into a friendly competition with your class. Join the waitlist.";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://himma.app"),
+  metadataBase: new URL("https://dir-himma.vercel.app"),
   title: "Himma — Dir himma",
   description,
   applicationName: "Himma",

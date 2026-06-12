@@ -33,3 +33,8 @@ next-env.d.ts
 
 # Claude Code local settings
 .claude/
+
+# brand video (Remotion) — keep source, ignore deps + renders
+branding/video/node_modules/
+branding/video/out/
+branding/video/package-lock.json
