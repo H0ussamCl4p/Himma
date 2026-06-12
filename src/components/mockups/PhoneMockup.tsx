@@ -10,10 +10,10 @@ type LeaderRow = {
 };
 
 const ROWS: LeaderRow[] = [
-  { rank: 1, initial: "Y", color: "#7FB3A0", name: "Younes", hours: "14h 20" },
+  { rank: 1, initial: "Y", color: "#5BE3C0", name: "Younes", hours: "14h 20" },
   { rank: 2, initial: "S", color: "#C58BD1", name: "Salma", hours: "12h 05" },
-  { rank: 3, initial: "M", color: "#E0A24B", name: "Mehdi", hours: "10h 40" },
-  { rank: 7, initial: "H", color: "#FB6F4C", name: "You", hours: "9h 05", me: true },
+  { rank: 3, initial: "M", color: "#FFB23E", name: "Mehdi", hours: "10h 40" },
+  { rank: 7, initial: "H", color: "#FF6A2C", name: "You", hours: "9h 05", me: true },
 ];
 
 /** The hero's leaderboard phone-mockup preview, with the bobbing mascot above it. */
@@ -23,7 +23,7 @@ export function PhoneMockup() {
       <div className="glow" />
       <div className="stage">
         <div className="mascot">
-          <HeroMascot />
+          <HeroMascot id="mk-hero" />
         </div>
         <div className="phone">
           <div className="pbar">

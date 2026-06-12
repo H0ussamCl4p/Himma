@@ -1,5 +1,6 @@
 import { Nav } from "@/components/sections/Nav";
 import { Hero } from "@/components/sections/Hero";
+import { WhyHimma } from "@/components/sections/WhyHimma";
 import { HowItWorks } from "@/components/sections/HowItWorks";
 import { Footer } from "@/components/sections/Footer";
 
@@ -12,6 +13,7 @@ export default function Home() {
     <div className="wrap">
       <Nav />
       <Hero />
+      <WhyHimma />
       <HowItWorks />
       <Footer />
     </div>

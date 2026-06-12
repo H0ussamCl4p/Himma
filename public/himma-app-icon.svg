@@ -1,13 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-label="Himma app icon">
   <title>Himma app icon</title>
-  <rect width="1024" height="1024" rx="224" fill="#FFF4EC"/>
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1024" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#FBF6EF"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="512" cy="560" r="430" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF6A2C" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#FF6A2C" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="body" x1="512" y1="160" x2="512" y2="710" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF9A5C"/>
+      <stop offset="0.5" stop-color="#FF6A2C"/>
+      <stop offset="1" stop-color="#E2521A"/>
+    </linearGradient>
+    <linearGradient id="core" x1="512" y1="400" x2="512" y2="660" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFE7A8"/>
+      <stop offset="1" stop-color="#FFB23E"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="224" fill="url(#tile)"/>
+  <rect width="1024" height="1024" rx="224" fill="url(#halo)"/>
   <g transform="translate(272,212) scale(5)">
-    <path d="M48 16 C 58 34 80 46 80 76 C 80 98 66 110 48 110 C 30 110 16 98 16 76 C 16 48 36 40 48 16 Z" fill="#FB6F4C"/>
-    <path d="M48 58 C 55 68 63 74 63 84 C 63 95 57 101 48 101 C 39 101 33 95 33 84 C 33 74 41 68 48 58 Z" fill="#FFC24B"/>
-    <circle cx="40" cy="72" r="4.5" fill="#2C2622"/>
-    <circle cx="56" cy="72" r="4.5" fill="#2C2622"/>
-    <circle cx="41.6" cy="70.4" r="1.4" fill="#FFFFFF"/>
-    <circle cx="57.6" cy="70.4" r="1.4" fill="#FFFFFF"/>
-    <path d="M41 82 Q48 89 55 82" fill="none" stroke="#2C2622" stroke-width="3" stroke-linecap="round"/>
+    <path d="M48 14C58 33 81 45 81 76C81 98.5 66.5 111 48 111C29.5 111 15 98.5 15 76C15 47 36.5 38.5 48 14Z" fill="url(#body)"/>
+    <path d="M48 56C56 67 64 73.5 64 84C64 95.5 57.5 102 48 102C38.5 102 32 95.5 32 84C32 73.5 40 67 48 56Z" fill="url(#core)"/>
+    <circle cx="40" cy="73" r="4.4" fill="#1a0f08"/>
+    <circle cx="56" cy="73" r="4.4" fill="#1a0f08"/>
+    <circle cx="41.6" cy="71.4" r="1.4" fill="#FFFFFF"/>
+    <circle cx="57.6" cy="71.4" r="1.4" fill="#FFFFFF"/>
+    <path d="M41 83 Q48 90 55 83" fill="none" stroke="#1a0f08" stroke-width="3" stroke-linecap="round"/>
   </g>
 </svg>

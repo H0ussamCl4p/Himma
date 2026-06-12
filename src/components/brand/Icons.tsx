@@ -78,6 +78,51 @@ export function CalendarIcon({ size = 14, className }: IconProps) {
   );
 }
 
+/** Two friends — social accountability. */
+export function UsersIcon({ size = 22, className }: IconProps) {
+  return (
+    <svg {...svgProps(size, className)}>
+      <circle cx="9" cy="8" r="3.2" />
+      <path d="M3.5 19.5a5.5 5.5 0 0 1 11 0" />
+      <path d="M16 5.2a3.2 3.2 0 0 1 0 5.6" />
+      <path d="M17 14.4a5.5 5.5 0 0 1 3.5 5.1" />
+    </svg>
+  );
+}
+
+/** Shield with a check — anti-cheat / real scores. */
+export function ShieldIcon({ size = 22, className }: IconProps) {
+  return (
+    <svg {...svgProps(size, className)}>
+      <path d="M12 3 5 5.5V11c0 4.4 3 7.6 7 9 4-1.4 7-4.6 7-9V5.5L12 3Z" />
+      <path d="M9 11.8 11 14l4-4.2" />
+    </svg>
+  );
+}
+
+/** Rising bars — subject / progress tracking. */
+export function ChartIcon({ size = 22, className }: IconProps) {
+  return (
+    <svg {...svgProps(size, className)}>
+      <path d="M4 20h16" />
+      <rect x="6" y="12" width="3" height="6" rx="1" />
+      <rect x="11" y="8" width="3" height="10" rx="1" />
+      <rect x="16" y="4" width="3" height="14" rx="1" />
+    </svg>
+  );
+}
+
+/** Globe — made for Morocco / Darija-first. */
+export function GlobeIcon({ size = 22, className }: IconProps) {
+  return (
+    <svg {...svgProps(size, className)}>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M3 12h18" />
+      <path d="M12 3c2.5 2.5 3.8 5.7 3.8 9S14.5 18.5 12 21c-2.5-2.5-3.8-5.7-3.8-9S9.5 5.5 12 3Z" />
+    </svg>
+  );
+}
+
 export function PauseIcon({ size = 14, className }: IconProps) {
   return (
     <svg {...svgProps(size, className)}>

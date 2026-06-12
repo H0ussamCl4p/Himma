@@ -44,7 +44,7 @@ export function WaitlistForm() {
   if (done) {
     return (
       <div className="done" role="status" aria-live="polite">
-        <SparkleMascot />
+        <SparkleMascot id="mk-done" />
         <h3>You&apos;re on the list!</h3>
         <p>We&apos;ll let you know the moment Himma opens at your school. Dir himma 🔥</p>
       </div>
@@ -131,7 +131,7 @@ export function WaitlistForm() {
           height="14"
           viewBox="0 0 24 24"
           fill="none"
-          stroke="#8A8178"
+          stroke="#6e6a64"
           strokeWidth="2.4"
           strokeLinecap="round"
           strokeLinejoin="round"

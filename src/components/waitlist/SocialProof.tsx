@@ -5,9 +5,9 @@
 const MIN_COUNT_TO_SHOW = 20;
 
 const AVATARS = [
-  { initial: "Y", color: "#7FB3A0" },
+  { initial: "Y", color: "#5BE3C0" },
   { initial: "S", color: "#C58BD1" },
-  { initial: "M", color: "#E0A24B" },
+  { initial: "M", color: "#FFB23E" },
 ];
 
 export function SocialProof({ count }: { count: number | null }) {

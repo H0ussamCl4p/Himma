@@ -4,7 +4,7 @@ export function Nav() {
   return (
     <nav className="rv d1">
       <div className="brand">
-        <BrandMark />
+        <BrandMark id="mk-nav" />
         <span>himma</span>
       </div>
       <div className="tag">For Moroccan students</div>
